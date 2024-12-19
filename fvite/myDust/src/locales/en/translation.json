@@ -1,0 +1,31 @@
+{
+  "createLink": "Create Access Link",
+  "name": "Name",
+  "parentDirectory": "Parent Directory",
+  "selectDirectory": "Select Directory",
+  "publicAccess": "Public Access",
+  "tokenType": "Token Type",
+  "view": "View",
+  "edit": "Edit",
+  "expirationDate": "Expiration Date",
+  "createLinkButton": "Create Link",
+  "linkCopied": "Link copied to clipboard!",
+  "accessLinks": "Access Links",
+  "unknownDirectory": "Unknown Directory",
+  "yoursDirectories": "Your Directories",
+  "error": "Error: {{message}}",
+  "noDirectories": "No directories available.",
+  "size": "Size",
+  "view": "View",
+  "download": "Download",
+  "error": "Error: {{message}}",
+  "notFound": "Oops! Page not found...",
+  "goHome": "Go to Homepage",
+  "header": {
+    "greeting": "Hello, {{username}}!",
+    "home": "Home",
+    "createLink": "Create Link",
+    "logout": "Logout",
+    "language": "Language"
+  }
+}
