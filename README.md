@@ -1,58 +1,71 @@
-# Full Stack File Manager Project
+# File Manager 2.0
 
-This is my first full-stack project, where I built both the backend and frontend. My goal is to develop a user-friendly file manager with private access and public sharing capabilities through links. I plan to enhance and improve this project over time.
+Welcome to **File Manager 2.0** – the second version of my File Manager project. In this release, I have completely rewritten the application using **React**, **Vite**, and **Redux Thunk**. Additionally, I’ve fixed several bugs on the backend side to enhance the overall functionality.
 
-## Project Overview
+## 🚀 Features
 
-- **Backend**: Django
-- **Frontend**: React
-- **Key Features**:
-  - Private access to files
-  - Public links for sharing
-  - User authentication and authorization
+### Frontend:
+- **Built with React & Vite** for fast and optimized development.
+- **State management with Redux** using **Redux Thunk** for efficient handling of asynchronous actions.
+- **Enhanced UI/UX** for a more user-friendly experience.
 
-## Folder Structure
+### Backend:
+- **Bug fixes and improvements** in the backend to ensure smoother file management operations.
+- **Optimized file management logic** for better performance.
 
-- **serverex/**: Contains the Django backend for file management, including user authentication, file uploads, and permissions.
-- **frontend/**: Contains the React frontend for user interaction, file upload/download, and link generation.
+## 🌱 Future Plans
 
-## Getting Started
+- **Database Query Optimization**: I plan to further optimize database queries to improve speed and efficiency.
+- **Caching**: Introduce caching to reduce database load and improve response times.
+- **Extended Functionality**: Additional features are planned, including:
+  - Advanced sharing options.
+  - File versioning.
+  - Enhanced file search functionality.
 
-To set up and run the project locally:
+## 📦 Installation
 
-### Prerequisites
+### Backend
 
-- React and npm (for frontend)
-- Python and Django (for backend)
-- Git
-
-### Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/DanielKhan1403/FirstFullStackProject.git
-   cd FirstFullStackProj
-
-
+1. Clone the backend repository:
+  
+   git clone https://github.com/DanielKhan1403/file_manager2.0.git
 
    
+2.Navigate to the backend directory and install dependencies:
 cd serverex
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+py -m venv venv
+venv\Scripts\Activate
 pip install -r requirements.txt
 
+3.Set up environment variables (refer to .env.example).
 
-cd ../frontend
+4.Start the backend server:
+py manage.py runserver
+
+
+### Frontend 
+
+
+cd fvite
 npm install
+npm run dev
 
 
-cd frontend
-npm start
+### 🤝 Contributing
+
+Feel free to fork the repository, open issues, or submit pull requests. If you find any bugs or have suggestions for new features, please let me know by opening an issue. Contributions are welcome!
 
 
-Future Improvements
-Enhance file sharing options
-Add more detailed documentation
-Improve the UI and UX for better usability
-Acknowledgements
-Thank you for visiting my project. I look forward to building more features and enhancing the user experience over time. 😊
+### 📝 License
+
+This project is open-source and available under the MIT License.
+
+
+Structure & Content Breakdown
+Project Name & Description: The file starts with the project name and a brief description.
+Features: A list of key features, covering both frontend and backend aspects.
+Future Plans: A section outlining the plans for future improvements and optimizations.
+Installation Instructions: Clear, step-by-step instructions for installing both the backend and frontend.
+Contributing: Information on how others can contribute to the project.
+License: The license under which the project is distributed
+
